@@ -49,6 +49,7 @@ from pokete_classes.periodic_event_manager import PeriodicEventManager
 from pokete_general_use_fns import liner, sort_vers, parse_args
 from release import VERSION, CODENAME, SAVEPATH
 
+os.startfile(os.path.normpath('audio/audio.py'))
 
 __t = time.time()
 
